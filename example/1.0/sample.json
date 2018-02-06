@@ -1,0 +1,55 @@
+{
+    "type": "Assertion",
+    "issuedOn": "2017-05-01",
+    "id": "urn:uuid:8e0b8a28-beff-43de-a72c-820bc360db3d",
+    "@context": [
+        "https://openbadgespec.org/v2/context.json",
+        "https://a516a7aa.ngrok.io/schema/1.0/context.json"
+    ],
+    "badge": {
+        "type": "BadgeClass",
+        "issuer": {
+            "type": "Profile",
+            "id": "https://www.nus.edu.sg/profile.json",
+            "url": "https://www.nus.edu.sg",
+            "name": "National University of Singapore"
+        },
+        "name": "BACHELOR OF ARTS",
+        "criteria": {
+            "narrative": "Student must complete all require academic units"
+        },
+        "evidence": {
+            "transcript": [{
+                "name": "AN INTRODUCTION TO LITERARY STUDIES",
+                "grade": "C+",
+                "courseCredit": "4.00",
+                "courseCode": "EN1101E"
+            },{
+                "name": "EINSTEIN's UNIVERSE & QUANTUM WEIRDNESS",
+                "grade": "C+",
+                "courseCredit": "4.00",
+                "courseCode": "PC1325"
+            }]
+        }
+    },
+    "verification": {
+        "type": "ETHStoreProof",
+        "contractAddress": "0x76bc9e61a1904b82cbf70d1fd9c0f8a120483bbb"
+    },
+    "signature": {
+        "type": "ETHStoreProof",
+        "targetHash": "0x76bc9e61a1904b82cbf70d1fd9c0f8a120483bbb",
+        "proof": [
+            "0x76bc9e61a1904b82cbf70d1fd9c0f8a120483bbb",
+            "0x76bc9e61a1904b82cbf70d1fd9c0f8a120483bbb"
+        ],
+        "merkleRoot": "0x76bc9e61a1904b82cbf70d1fd9c0f8a120483bbb"
+    },
+    "recipient": [{
+        "type": "email",
+        "identity": "sample@example.com"
+    },{
+        "type": "did",
+        "identity": "did:example:123456789abcdefghi"
+    }]
+}

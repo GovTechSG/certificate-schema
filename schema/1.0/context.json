@@ -1,0 +1,25 @@
+{
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "cert": "https://<OURCERTIFICATEURL>.com/spec#",
+    "obi": "https://w3id.org/openbadges#",
+    "schema": "http://schema.org/",
+    
+    "ETHStoreProof": "cert:ETHStoreProof",
+    "did": "cert:did",
+    
+    "transcript": "cert:transcript",
+
+    "grade": "cert:grade",
+    "courseCredit": "cert:credit",
+    "courseCode": "cert:courseCode",
+
+    "contractAddress": "cert:contractAddress",
+    "targetHash": "cert:targetHash",
+    "proof": "cert:proof",
+    "merkleRoot": "cert:merkleRoot",
+
+    "signature": "cert:signature"
+  }
+}
