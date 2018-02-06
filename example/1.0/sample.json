@@ -4,7 +4,7 @@
     "id": "urn:uuid:8e0b8a28-beff-43de-a72c-820bc360db3d",
     "@context": [
         "https://openbadgespec.org/v2/context.json",
-        "https://a516a7aa.ngrok.io/schema/1.0/context.json"
+        "https://govtechsg.github.io/certificate-schema/schema/1.0/context.json"
     ],
     "badge": {
         "type": "BadgeClass",
