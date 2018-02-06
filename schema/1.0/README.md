@@ -36,25 +36,22 @@ An example of a valid certificate:
                 "courseCredit": "UDIFMCJSPD:4.00",
                 "courseCode": "EPDUSJCNZL:EN1101E"
             },{
+            },{
                 "name": "PAJSUDJCHS:EINSTEIN's UNIVERSE & QUANTUM WEIRDNESS",
                 "grade": "IWUEJDKZMS:C+",
                 "courseCredit": "QPWOEKDNZJ:4.00",
                 "courseCode": "KSIDMAJJAP:PC1325"
             }]
         }
+        "privateEvidence": [
+        	"SOME_HASH_REPRESENTING_SOME_EVIDENCE_1",
+        	"SOME_HASH_REPRESENTING_SOME_EVIDENCE_2",
+        	"SOME_HASH_REPRESENTING_SOME_EVIDENCE_3"
+        ]
     },
     "verification": {
         "type": "ETHStoreProof",
         "contractAddress": "0x76bc9e61a1904b82cbf70d1fd9c0f8a120483bbb"
-    },
-    "signature": {
-        "type": "ETHStoreProof",
-        "targetHash": "0x76bc9e61a1904b82cbf70d1fd9c0f8a120483bbb",
-        "proof": [
-            "0x76bc9e61a1904b82cbf70d1fd9c0f8a120483bbb",
-            "0x76bc9e61a1904b82cbf70d1fd9c0f8a120483bbb"
-        ],
-        "merkleRoot": "0x76bc9e61a1904b82cbf70d1fd9c0f8a120483bbb"
     },
     "recipient": [{
         "type": "email",
@@ -65,6 +62,7 @@ An example of a valid certificate:
     }]
 }
 ```
+
 
 ## Summary of extensions to Open Badge v2
 
