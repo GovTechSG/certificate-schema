@@ -1,0 +1,162 @@
+[
+  {
+    "https://w3id.org/openbadges#badge": [
+      {
+        "https://w3id.org/openbadges#criteria": [
+          {
+            "https://w3id.org/openbadges#narrative": [
+              {
+                "@value": "Student must complete all require academic units"
+              }
+            ]
+          }
+        ],
+        "https://w3id.org/openbadges#evidence": [
+          {
+            "https://govtechsg.github.io/certificate-schema/schema/1.0#transcript": [
+              {
+                "https://govtechsg.github.io/certificate-schema/schema/1.0#courseCode": [
+                  {
+                    "@value": "EN1101E"
+                  }
+                ],
+                "https://govtechsg.github.io/certificate-schema/schema/1.0#credit": [
+                  {
+                    "@value": "4.00"
+                  }
+                ],
+                "https://govtechsg.github.io/certificate-schema/schema/1.0#grade": [
+                  {
+                    "@value": "C+"
+                  }
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "AN INTRODUCTION TO LITERARY STUDIES"
+                  }
+                ]
+              },
+              {
+                "https://govtechsg.github.io/certificate-schema/schema/1.0#courseCode": [
+                  {
+                    "@value": "PC1325"
+                  }
+                ],
+                "https://govtechsg.github.io/certificate-schema/schema/1.0#credit": [
+                  {
+                    "@value": "4.00"
+                  }
+                ],
+                "https://govtechsg.github.io/certificate-schema/schema/1.0#grade": [
+                  {
+                    "@value": "C+"
+                  }
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "EINSTEIN's UNIVERSE & QUANTUM WEIRDNESS"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "https://w3id.org/openbadges#issuer": [
+          {
+            "@id": "https://www.nus.edu.sg/profile.json",
+            "http://schema.org/name": [
+              {
+                "@value": "National University of Singapore"
+              }
+            ],
+            "@type": [
+              "https://w3id.org/openbadges#Profile"
+            ],
+            "http://schema.org/url": [
+              {
+                "@id": "https://www.nus.edu.sg"
+              }
+            ]
+          }
+        ],
+        "http://schema.org/name": [
+          {
+            "@value": "BACHELOR OF ARTS"
+          }
+        ],
+        "@type": [
+          "https://w3id.org/openbadges#BadgeClass"
+        ]
+      }
+    ],
+    "@id": "urn:uuid:8e0b8a28-beff-43de-a72c-820bc360db3d",
+    "https://w3id.org/openbadges#issueDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2017-05-01"
+      }
+    ],
+    "https://w3id.org/openbadges#recipient": [
+      {
+        "https://w3id.org/openbadges#identityHash": [
+          {
+            "@value": "sample@example.com"
+          }
+        ],
+        "@type": [
+          "http://schema.org/email"
+        ]
+      },
+      {
+        "https://w3id.org/openbadges#identityHash": [
+          {
+            "@value": "did:example:123456789abcdefghi"
+          }
+        ],
+        "@type": [
+          "https://govtechsg.github.io/certificate-schema/schema/1.0#did"
+        ]
+      }
+    ],
+    "https://govtechsg.github.io/certificate-schema/schema/1.0#signature": [
+      {
+        "https://govtechsg.github.io/certificate-schema/schema/1.0#merkleRoot": [
+          {
+            "@value": "0x76bc9e61a1904b82cbf70d1fd9c0f8a120483bbb"
+          }
+        ],
+        "https://govtechsg.github.io/certificate-schema/schema/1.0#proof": [
+          {
+            "@value": "0x76bc9e61a1904b82cbf70d1fd9c0f8a120483bbb"
+          },
+          {
+            "@value": "0x76bc9e61a1904b82cbf70d1fd9c0f8a120483bbb"
+          }
+        ],
+        "https://govtechsg.github.io/certificate-schema/schema/1.0#targetHash": [
+          {
+            "@value": "0x76bc9e61a1904b82cbf70d1fd9c0f8a120483bbb"
+          }
+        ],
+        "@type": [
+          "https://govtechsg.github.io/certificate-schema/schema/1.0#ETHStoreProof"
+        ]
+      }
+    ],
+    "@type": [
+      "https://w3id.org/openbadges#Assertion"
+    ],
+    "https://w3id.org/openbadges#verify": [
+      {
+        "https://govtechsg.github.io/certificate-schema/schema/1.0#contractAddress": [
+          {
+            "@value": "0x76bc9e61a1904b82cbf70d1fd9c0f8a120483bbb"
+          }
+        ],
+        "@type": [
+          "https://govtechsg.github.io/certificate-schema/schema/1.0#ETHStoreProof"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "name": "certificate-schema",
+  "version": "1.0.0",
+  "description": "[v1.0](https://govtechsg.github.io/certificate-schema/schema/1.0)",
+  "main": "index.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/init.js test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GovTechSG/certificate-schema.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GovTechSG/certificate-schema/issues"
+  },
+  "homepage": "https://github.com/GovTechSG/certificate-schema#readme",
+  "dependencies": {
+    "jsonld": "^0.5.10"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0"
+  }
+}
