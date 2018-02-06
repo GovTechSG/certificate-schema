@@ -1,7 +1,3 @@
----
-title: Open Certificate Schema
----
-
 ## Open Certificate Schema
 
 ### Versions
