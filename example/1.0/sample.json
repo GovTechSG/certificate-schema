@@ -18,17 +18,21 @@
         "criteria": {
             "narrative": "Student must complete all require academic units"
         },
+        "evidencePrivacyFilter": {
+            "type": "SaltedProof",
+            "saltLength": "10"
+        },
         "evidence": {
             "transcript": [{
-                "name": "AN INTRODUCTION TO LITERARY STUDIES",
-                "grade": "C+",
-                "courseCredit": "4.00",
-                "courseCode": "EN1101E"
+                "name": "AUSJDLEOFP:AN INTRODUCTION TO LITERARY STUDIES",
+                "grade": "DUEJFOSDEL:C+",
+                "courseCredit": "UDIFMCJSPD:4.00",
+                "courseCode": "EPDUSJCNZL:EN1101E"
             },{
-                "name": "EINSTEIN's UNIVERSE & QUANTUM WEIRDNESS",
-                "grade": "C+",
-                "courseCredit": "4.00",
-                "courseCode": "PC1325"
+                "name": "PAJSUDJCHS:EINSTEIN's UNIVERSE & QUANTUM WEIRDNESS",
+                "grade": "IWUEJDKZMS:C+",
+                "courseCredit": "QPWOEKDNZJ:4.00",
+                "courseCode": "KSIDMAJJAP:PC1325"
             }]
         }
     },

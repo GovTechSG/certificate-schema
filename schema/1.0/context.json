@@ -7,6 +7,8 @@
     "schema": "http://schema.org/",
     
     "ETHStoreProof": "cert:ETHStoreProof",
+    "SaltedProof": "cert:SaltedMerkleProof",
+
     "did": "cert:did",
     
     "transcript": "cert:transcript",
@@ -20,6 +22,10 @@
     "proof": "cert:proof",
     "merkleRoot": "cert:merkleRoot",
 
-    "signature": "cert:signature"
+    "signature": "cert:signature",
+
+    "evidencePrivacyFilter": "cert:evidencePrivacyFilter",
+    "privateEvidence": "cert:privateEvidence",
+    "saltLength": "cert:saltLength"
   }
 }
