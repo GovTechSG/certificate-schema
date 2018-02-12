@@ -81,24 +81,11 @@
   "verification": {
     "type": "hosted"
   },
-  "receipient": [
-    {
-      "type": "email",
-      "identity": "yehjxraymond@gmail.com",
-      "hashed": false
-    },
-    {
-      "type": "url",
-      "identity": "http://bobby.net",
-      "hashed": false
-    },
-    {
-      "type": "telephone",
-      "identity": "sha256$673be0d0bff43b70d24f8ba16e584727ca814a13ef370ca9f4443fd8398a02aa",
-      "salt": "ntnaj0o189",
-      "hashed": true
-    }
-  ],
+  "receipient":{
+    "type": "email",
+    "identity": "yehjxraymond@gmail.com",
+    "hashed": false
+  },
   "signature": {
     "type": "SHA3MerkleProof",
     "targetHash": "70b6013854132d2ca8bd4568530a236a362e743df34bbee511f4eb9e28724600",
