@@ -135,6 +135,8 @@ An example of a valid certificate:
 
 ### Step 2. Compute evidence hash
 
+Note: Skip this step if evidence is already a hash
+
 1. Normalise evidence object
 2. Hash individual lines
 3. Sort hashes in accending order

@@ -1,5 +1,5 @@
 {
-  "id": "urn:uuid:23551f99-fb1e-41d8-86dd-cbe48a7ee925",
+  "id": "https://govtechsg.github.io/example/openbadge/sample.json",
   "type": "Assertion",
   "issuedOn": "2018-02-12T02:26:48.593Z",
   "@context": [
@@ -16,7 +16,7 @@
     "criteria": "iotkw1fr3a0us5sz1iatubiy442yp9ayhcvrab2fejiq6jsz0hb5ut1fms6wv05w9h8r0wsjalsyyukz",
     "issuer": {
       "id": "urn:uuid:801f70a0-2864-41cb-b038-9d3d61b5b1c1",
-      "url": "https://raymundo.name",
+      "url": "https://govtechsg.github.io",
       "email": "Georgianna_Larkin99@hotmail.com"
     },
     "evidence": {
@@ -79,13 +79,12 @@
     }
   },
   "verification": {
-    "type": "ETHStoreProof",
-    "contractAddress": "0x76bc9e61a1904b82cbf70d1fd9c0f8a120483bbb"
+    "type": "hosted"
   },
   "receipient": [
     {
       "type": "email",
-      "identity": "Afton.Konopelski@yahoo.com",
+      "identity": "yehjxraymond@gmail.com",
       "hashed": false
     },
     {
